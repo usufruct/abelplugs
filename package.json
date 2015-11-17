@@ -1,0 +1,24 @@
+{
+  "name": "babelplugs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "babel 6 plugins, how do they work?",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d ./lib ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usufruct/abelplugs.git"
+  },
+  "author": "Michael A Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usufruct/abelplugs/issues"
+  },
+  "homepage": "https://github.com/usufruct/abelplugs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.1.18"
+  }
+}
